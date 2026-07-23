@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Bendegúz Bukovics — Web Designer & Developer</title>
+<meta name="description" content="Bendegúz Bukovics — Web Designer & Developer building modern websites that help businesses grow. Based in Budapest, Hungary." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <span class="loader__num" id="loaderNum">0</span>
+    <span class="loader__pct">%</span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">
+    <span class="nav__mark">BB</span>
+    <span class="nav__name">Bendegúz Bukovics</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="nav__cta">
+    <span>Let's talk</span>
+    <span class="nav__dot"></span>
+  </a>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__meta">
+    <span class="tag"><span class="tag__dot"></span>Available for Q1 2026</span>
+    <span class="hero__loc">Budapest · HU</span>
+  </div>
+
+  <h1 class="hero__title">
+    <span class="line"><span class="reveal">I&nbsp;build</span></span>
+    <span class="line"><span class="reveal">websites <em>that&nbsp;help</em></span></span>
+    <span class="line"><span class="reveal">businesses <span class="hero__amp">grow.</span></span></span>
+  </h1>
+
+  <div class="hero__foot">
+    <p class="hero__sub reveal-up">
+      Modern websites crafted with Lovable, Framer, Webflow, WordPress and custom code — designed for speed, clarity and conversion.
+    </p>
+    <div class="hero__actions reveal-up">
+      <a href="#work" class="btn btn--primary">
+        <span>View Projects</span>
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      </a>
+      <a href="#contact" class="btn btn--ghost">
+        <span>Contact Me</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Web Design</span><span>·</span><span>Development</span><span>·</span><span>Framer</span><span>·</span><span>Webflow</span><span>·</span><span>Lovable</span><span>·</span><span>WordPress</span><span>·</span>
+      <span>Web Design</span><span>·</span><span>Development</span><span>·</span><span>Framer</span><span>·</span><span>Webflow</span><span>·</span><span>Lovable</span><span>·</span><span>WordPress</span><span>·</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section__head">
+    <span class="eyebrow">01 — About</span>
+    <h2 class="section__title reveal-up">
+      A studio-of-one focused on <em>clean design</em>, real speed and websites that quietly do their job.
+    </h2>
+  </div>
+  <div class="about__grid">
+    <div class="about__col reveal-up">
+      <p>I'm a web designer and developer building modern websites for local businesses across Europe. Every project starts with the same question — how does this site actually help the business grow?</p>
+      <p>From the first sketch to the last line of CSS, I care about typography, rhythm and pace. Sites should feel calm, load instantly, and turn visitors into customers.</p>
+    </div>
+    <div class="about__col reveal-up">
+      <p>I use AI-native tools like Lovable to move quickly without cutting corners, and reach for Framer, Webflow, WordPress or custom code depending on what the project truly needs.</p>
+      <p>The result: premium websites, delivered in weeks — not months.</p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat reveal-up"><span class="stat__num" data-count="40">0</span><span class="stat__label">Projects shipped</span></div>
+    <div class="stat reveal-up"><span class="stat__num" data-count="12">0</span><span class="stat__label">Happy clients</span></div>
+    <div class="stat reveal-up"><span class="stat__num" data-count="98">0</span><span class="stat__label">Avg. PageSpeed</span></div>
+    <div class="stat reveal-up"><span class="stat__num" data-count="4">0</span><span class="stat__label">Years crafting</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section__head">
+    <span class="eyebrow">02 — Services</span>
+    <h2 class="section__title reveal-up">Everything a modern business needs to <em>show up</em> online.</h2>
+  </div>
+  <ul class="svc">
+    <li class="svc__row"><span class="svc__num">/01</span><span class="svc__name">Website Design</span><span class="svc__desc">Editorial, brand-driven design systems.</span></li>
+    <li class="svc__row"><span class="svc__num">/02</span><span class="svc__name">Business Websites</span><span class="svc__desc">Multi-page sites tuned for trust.</span></li>
+    <li class="svc__row"><span class="svc__num">/03</span><span class="svc__name">Landing Pages</span><span class="svc__desc">Focused pages that convert traffic.</span></li>
+    <li class="svc__row"><span class="svc__num">/04</span><span class="svc__name">SEO Optimization</span><span class="svc__desc">Technical + on-page fundamentals.</span></li>
+    <li class="svc__row"><span class="svc__num">/05</span><span class="svc__name">Website Maintenance</span><span class="svc__desc">Care plans, updates and monitoring.</span></li>
+    <li class="svc__row"><span class="svc__num">/06</span><span class="svc__name">AI Integrations</span><span class="svc__desc">Chat, automations, content workflows.</span></li>
+  </ul>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="section__head">
+    <span class="eyebrow">03 — Selected Work</span>
+    <h2 class="section__title reveal-up">Recent projects & <em>concepts.</em></h2>
+  </div>
+
+  <article class="proj proj--left">
+    <div class="proj__media reveal-media">
+      <div class="proj__img" style="background-image:url('https://images.unsplash.com/photo-1530549387789-4c1017266635?w=1600&q=80&auto=format&fit=crop')"></div>
+      <span class="proj__year">2025</span>
+    </div>
+    <div class="proj__info">
+      <span class="proj__idx">01 / 04</span>
+      <h3 class="proj__title reveal-up">SwimX</h3>
+      <p class="proj__desc reveal-up">Modern website for a swimming club with responsive design and clean branding.</p>
+      <div class="proj__tags reveal-up"><span>Framer</span><span>Branding</span><span>Sports</span></div>
+      <a href="#" class="btn btn--ghost proj__btn"><span>Case study</span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    </div>
+  </article>
+
+  <article class="proj proj--right">
+    <div class="proj__media reveal-media">
+      <div class="proj__img" style="background-image:url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600&q=80&auto=format&fit=crop')"></div>
+      <span class="proj__year">2025</span>
+    </div>
+    <div class="proj__info">
+      <span class="proj__idx">02 / 04</span>
+      <h3 class="proj__title reveal-up">Barber Studio</h3>
+      <p class="proj__desc reveal-up">Premium website concept for a modern barber shop.</p>
+      <div class="proj__tags reveal-up"><span>Webflow</span><span>Concept</span><span>Booking</span></div>
+      <a href="#" class="btn btn--ghost proj__btn"><span>Case study</span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    </div>
+  </article>
+
+  <article class="proj proj--left">
+    <div class="proj__media reveal-media">
+      <div class="proj__img" style="background-image:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80&auto=format&fit=crop')"></div>
+      <span class="proj__year">2024</span>
+    </div>
+    <div class="proj__info">
+      <span class="proj__idx">03 / 04</span>
+      <h3 class="proj__title reveal-up">Fitness Club</h3>
+      <p class="proj__desc reveal-up">Modern gym and fitness website focused on membership growth.</p>
+      <div class="proj__tags reveal-up"><span>Lovable</span><span>Concept</span><span>Growth</span></div>
+      <a href="#" class="btn btn--ghost proj__btn"><span>Case study</span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    </div>
+  </article>
+
+  <article class="proj proj--right">
+    <div class="proj__media reveal-media">
+      <div class="proj__img" style="background-image:url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80&auto=format&fit=crop')"></div>
+      <span class="proj__year">2024</span>
+    </div>
+    <div class="proj__info">
+      <span class="proj__idx">04 / 04</span>
+      <h3 class="proj__title reveal-up">Beauty Salon</h3>
+      <p class="proj__desc reveal-up">Luxury beauty salon website with online booking.</p>
+      <div class="proj__tags reveal-up"><span>WordPress</span><span>Booking</span><span>Luxury</span></div>
+      <a href="#" class="btn btn--ghost proj__btn"><span>Case study</span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    </div>
+  </article>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <div class="section__head">
+    <span class="eyebrow">04 — Toolkit</span>
+    <h2 class="section__title reveal-up">The stack behind the <em>craft.</em></h2>
+  </div>
+  <div class="skills__grid">
+    <div class="skill reveal-up"><span>Lovable</span></div>
+    <div class="skill reveal-up"><span>Framer</span></div>
+    <div class="skill reveal-up"><span>Webflow</span></div>
+    <div class="skill reveal-up"><span>WordPress</span></div>
+    <div class="skill reveal-up"><span>HTML</span></div>
+    <div class="skill reveal-up"><span>CSS</span></div>
+    <div class="skill reveal-up"><span>JavaScript</span></div>
+    <div class="skill reveal-up"><span>React</span></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <span class="eyebrow">05 — Contact</span>
+  <h2 class="contact__title">
+    <span class="line"><span class="reveal">Let's build</span></span>
+    <span class="line"><span class="reveal">something <em>great.</em></span></span>
+  </h2>
+  <a href="mailto:hello@bendeguz.dev" class="contact__mail reveal-up">hello@bendeguz.dev</a>
+  <a href="mailto:hello@bendeguz.dev" class="btn btn--primary btn--lg reveal-up">
+    <span>Start a Project</span>
+    <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+  </a>
+</section>
+
+<footer class="foot">
+  <div class="foot__col">
+    <span class="foot__label">Based in</span>
+    <span>Budapest, Hungary</span>
+  </div>
+  <div class="foot__col">
+    <span class="foot__label">Elsewhere</span>
+    <a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Dribbble</a>
+  </div>
+  <div class="foot__col">
+    <span class="foot__label">© 2026</span>
+    <span>Bendegúz Bukovics</span>
+  </div>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
