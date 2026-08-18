@@ -331,9 +331,9 @@ function Portfolio() {
             <span className="line"><span className="reveal">Let's build</span></span>
             <span className="line"><span className="reveal">something <em>great.</em></span></span>
           </h2>
-          <a href="mailto:hello@bendeguz.dev" className="contact__mail reveal-up">hello@bendeguz.dev</a>
+          <a href="mailto:bendeguzi.bukovicsi@gmail.com" className="contact__mail reveal-up">bendeguzi.bukovicsi@gmail.com</a>
           <div className="reveal-up" style={{ display:"flex", justifyContent:"center" }}>
-            <a href="mailto:hello@bendeguz.dev" className="btn btn--primary btn--lg">
+            <a href="mailto:bendeguzi.bukovicsi@gmail.com" className="btn btn--primary btn--lg">
               <span>Start a Project</span>
               <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" strokeWidth="1.6"/></svg>
             </a>
